@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-white shadow-sm">
       <continer>
-        <div className="max-w-7xl  px-4 flex justify-between items-center h-16">
+        <div className="max-w-7xl  px-20 flex justify-between items-center h-16">
         
         <div className="text-lg font-bold text-gray-800">
           CS — <span className="font-bold">Ticket System</span>

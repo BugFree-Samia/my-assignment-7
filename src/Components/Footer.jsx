@@ -9,7 +9,7 @@ const footer = () => {
     
     <footer className="bg-black text-white pt-16 pb-6 mt-12">
         <container>
-            <div className=" px-4 sm:px-6 lg:px-8">
+            <div className=" px-20 sm:px-6 lg:px-20">
         
         
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 border-b border-gray-800 pb-12">
