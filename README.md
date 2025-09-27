@@ -1,10 +1,16 @@
-
+## Created a README file to answer the following questions -
 
 ### What is JSX, and why is it used?
 
 JSX stands for JavaScript XML. It is a syntax extension that allows you to write HTML-like code inside JavaScript, which is used in React to describe the UI structure.
 
-JSX makes the code more readable and easier to write. Under the hood, JSX is transformed into regular JavaScript using tools like Babel. This allows developers to build UI components with a syntax that looks like HTML but has the full power of JavaScript.
+**It is used because-**
+
+-Makes code more readable and expressive.
+
+-Allows developers to write UI components in a familiar HTML-like syntax.
+
+-JSX is transpiled to regular JavaScript using tools like Babel before it runs in the browser.
 
 ---
 
@@ -14,9 +20,7 @@ JSX makes the code more readable and easier to write. Under the hood, JSX is tra
 
 **Props** (short for "properties") are used to pass data from one component to another, typically from a parent to a child. Props are read-only and cannot be modified by the receiving component.
 
-In summary:
-- State is local and changeable within a component.
-- Props are external and passed from parent to child, and they cannot be changed by the child component.
+
 
 ---
 
@@ -24,9 +28,13 @@ In summary:
 
 The `useState` hook is a built-in React function that allows functional components to have state.
 
-When you call `useState`, you provide an initial value. It returns an array with two items: the current state value and a function to update it. When the update function is called, React re-renders the component with the new state value.
+**It works:**
 
-This allows components to keep track of dynamic data and respond to user interactions or other changes over time.
+useState takes the initial value as an argument.
+
+It returns a pair: the current state value and a function to update it.
+
+When the state is updated, the component re-renders.
 
 ---
 
