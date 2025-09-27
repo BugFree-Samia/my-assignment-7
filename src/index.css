@@ -4,7 +4,11 @@
 .gradient-bg-1 {
     background-image: 
         url('/src/assets/vector1.png'), 
+         url('/src/assets/image.png'),
         linear-gradient(125.07deg, rgba(99, 46, 227, 1), rgba(159, 98, 242, 1) 100%);
+        background-position: left top, right top, center; background-size: 150px 100%, 150px 100%, cover; background-repeat: no-repeat;
+
+    
        
     
 }
@@ -12,7 +16,9 @@
 
 .gradient-bg-2 {
     background-image: 
-        url('/src/assets/vector1.png'), 
-        linear-gradient(125.07deg, #38C172, #2DC96A 100%); 
+        url('/src/assets/vector1.png'),
+        url('/src/assets/image.png'), 
+        linear-gradient(125.07deg, #38C172, #2DC96A 100%);
+           background-position: left top, right top, center; background-size: 150px 100%, 150px 100%, cover; background-repeat: no-repeat;
  
 }
